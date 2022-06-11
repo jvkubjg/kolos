@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{22D1BA58-8959-46F5-B323-69DA349CC313}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="kolosMusic/Controllers/AlbumController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kolosMusic/Services/MusicianService.cs">
     <Files>
       <File FileName="kolosMusic/Entities/Musician.cs" Line="21" Column="1" />
       <File FileName="kolosMusic/appsettings.json" Line="12" Column="1" />
@@ -13,24 +13,26 @@
       <File FileName="kolosMusic/Entities/Configurations/TrackEfConfiguration.cs" Line="49" Column="39" />
       <File FileName="kolosMusic/Entities/Configurations/MusicLableEfConfiguration.cs" Line="28" Column="42" />
       <File FileName="kolosMusic/Entities/S20813Context.cs" Line="33" Column="1" />
-      <File FileName="kolosMusic/Startup.cs" Line="33" Column="1" />
+      <File FileName="kolosMusic/Startup.cs" Line="37" Column="10" />
       <File FileName="kolosMusic/DTO/AlbumDTO.cs" Line="15" Column="1" />
       <File FileName="kolosMusic/DTO/TrackDTO.cs" Line="9" Column="1" />
       <File FileName="kolosMusic/DTO/MusicLabelDTO.cs" Line="11" Column="8" />
-      <File FileName="kolosMusic/Services/IAlbumService.cs" Line="12" Column="1" />
+      <File FileName="kolosMusic/Services/IAlbumService.cs" Line="9" Column="9" />
       <File FileName="kolosMusic/Services/AlbumService.cs" Line="27" Column="45" />
-      <File FileName="kolosMusic/Controllers/AlbumController.cs" Line="6" Column="50" />
+      <File FileName="kolosMusic/Controllers/AlbumController.cs" Line="28" Column="14" />
       <File FileName="kolosMusic/Controllers/WeatherForecastController.cs" Line="12" Column="46" />
+      <File FileName="kolosMusic/Services/IMusicianService.cs" Line="9" Column="6" />
+      <File FileName="kolosMusic/Services/MusicianService.cs" Line="4" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="kolosMusic" expanded="True">
             <Node name="kolosMusic" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AlbumController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="MusicianService.cs" selected="True" />
               </Node>
-              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>

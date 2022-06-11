@@ -22,7 +22,7 @@ namespace kolosMusic.Entities.Configurations
             builder.HasOne(e => e.IdAlbumNavigation)
                  .WithMany(e => e.Tracks)
                  .HasForeignKey(e => e.IdAlbum)
-                 .HasConstraintName("IdMusicAlbum_fk")
+                 .HasConstraintName("trac_Album")
                  .OnDelete(DeleteBehavior.ClientSetNull);
 
             IEnumerable<Track> Tracks = new List<Track>
@@ -38,7 +38,9 @@ namespace kolosMusic.Entities.Configurations
                 {
                     IdTrack = 2,
                     TrackName = "Name",
-                    Duration = 1.9f
+                    Duration = 1.9f,
+                    //IdAlbum = 1
+
                 },
 
             };

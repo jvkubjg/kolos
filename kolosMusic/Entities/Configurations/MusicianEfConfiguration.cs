@@ -9,7 +9,7 @@ namespace kolosMusic.Entities.Configurations
     {
         public void Configure(EntityTypeBuilder<Musician> builder)
         {
-            builder.HasKey(e => e.IdMusician).HasName("Musician_pk");
+            builder.HasKey(e => e.IdMusician).HasName("Musiciahn_pk");
             builder.Property(e => e.IdMusician).UseIdentityColumn();
 
             builder.Property(e => e.FirstName).IsRequired().HasMaxLength(30);

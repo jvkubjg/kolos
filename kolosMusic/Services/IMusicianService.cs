@@ -1,10 +1,10 @@
 ﻿using System;
+using System.Threading.Tasks;
+
 namespace kolosMusic.Services
 {
-    public class IMusicianService
+    public interface IMusicianService
     {
-        public IMusicianService()
-        {
-        }
+        Task<bool> DeleteMusician(int IdMusician);
     }
 }

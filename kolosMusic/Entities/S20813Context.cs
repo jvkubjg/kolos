@@ -1,7 +1,8 @@
-﻿using kolosMusic.Entities.Configurations;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
+using kolosMusic.Entities.Configurations;
+using Microsoft.EntityFrameworkCore;
 
 namespace kolosMusic.Entities
 {

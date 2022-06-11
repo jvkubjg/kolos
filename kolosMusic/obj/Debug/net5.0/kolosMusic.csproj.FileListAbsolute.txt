@@ -1,0 +1,6 @@
+/Users/jvkubjg/Projects/kolosMusic/kolosMusic/obj/Debug/net5.0/kolosMusic.csproj.AssemblyReference.cache
+/Users/jvkubjg/Projects/kolosMusic/kolosMusic/obj/Debug/net5.0/kolosMusic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jvkubjg/Projects/kolosMusic/kolosMusic/obj/Debug/net5.0/kolosMusic.AssemblyInfoInputs.cache
+/Users/jvkubjg/Projects/kolosMusic/kolosMusic/obj/Debug/net5.0/kolosMusic.AssemblyInfo.cs
+/Users/jvkubjg/Projects/kolosMusic/kolosMusic/obj/Debug/net5.0/kolosMusic.csproj.CoreCompileInputs.cache
+/Users/jvkubjg/Projects/kolosMusic/kolosMusic/obj/Debug/net5.0/kolosMusic.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{22D1BA58-8959-46F5-B323-69DA349CC313}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kolosMusic/Startup.cs">
+    <Files>
+      <File FileName="kolosMusic/Entities/Musician.cs" Line="21" Column="1" />
+      <File FileName="kolosMusic/appsettings.json" Line="12" Column="1" />
+      <File FileName="kolosMusic/Entities/MusicianTrack.cs" Line="14" Column="1" />
+      <File FileName="kolosMusic/Entities/Track.cs" Line="15" Column="16" />
+      <File FileName="kolosMusic/Entities/Album.cs" Line="14" Column="1" />
+      <File FileName="kolosMusic/Entities/MusicLabel.cs" Line="21" Column="1" />
+      <File FileName="kolosMusic/Entities/Configurations/AlbumEfConfiguration.cs" Line="40" Column="15" />
+      <File FileName="kolosMusic/Entities/Configurations/MusicianEfConfiguration.cs" Line="12" Column="1" />
+      <File FileName="kolosMusic/Entities/Configurations/MusicianTrackEfCofniguration.cs" Line="26" Column="1" />
+      <File FileName="kolosMusic/Entities/Configurations/TrackEfConfiguration.cs" Line="47" Column="39" />
+      <File FileName="kolosMusic/Entities/Configurations/MusicLableEfConfiguration.cs" Line="28" Column="42" />
+      <File FileName="kolosMusic/Entities/S20813Context.cs" Line="30" Column="10" />
+      <File FileName="kolosMusic/Startup.cs" Line="18" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="kolosMusic" expanded="True">
+            <Node name="kolosMusic" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.kolosMusic PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

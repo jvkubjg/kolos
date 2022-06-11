@@ -6,7 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace kolosMusic.Services
 {
-    public class MusicianService : IMusicianService
+    public class MusicianService
+
     {
         private readonly S20813Context _context;
 
@@ -16,11 +17,11 @@ namespace kolosMusic.Services
         }
 
 
-        public async Task<bool> DeleteMusician(int IdMusician) // If not valid
-        {
+      //  public Task<bool> DeleteMusician(int IdMusician) // If not valid
+       // {
             //var musican = await _context.Musicians.SingleOrDefaultAsync(e => e.IdMusician == IdMusician);
-            var musican = await _context.Musicians.Include(m => m.IdMusician).ThenInclude(mt => mt.).ThenInclude(t => t.IdMusicAlbum).Count()
-        }
+      //      return false;
+      //  }
 
     }
 }

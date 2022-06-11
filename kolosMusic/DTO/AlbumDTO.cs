@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace kolosMusic.DTO
 {
     public class AlbumDTO

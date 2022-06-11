@@ -68,6 +68,18 @@ namespace kolosMusic.Controllers
             return Ok(result);
         }
 
+        [HttpDelete("{IdAlbum}")]
+        public async Task<IActionResult> DeleteAlbum([FromRoute] int IdAlbum)
+        {
+            var doctor = await _serivce.DeleteAlbum(IdAlbum);
+
+            if (!doctor)
+            {
+                return NotFound("Not found this album");
+            }
+
+            return NoContent();
+        }
 
 
     }
